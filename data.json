@@ -1,0 +1,227 @@
+{
+  "Stock": [
+    {
+      "Idcat": 1,
+      "DESIGNATION": "Perforator",
+      "MARQUE": "Bosch",
+      "QUANTITE": 10
+    },
+    {
+      "Idcat": 2,
+      "DESIGNATION": "Chainsaw",
+      "MARQUE": "Stihl",
+      "QUANTITE": 5
+    },
+    {
+      "Idcat": 3,
+      "DESIGNATION": "Cement Mixer",
+      "MARQUE": "Sermat",
+      "QUANTITE": 8
+    },
+    {
+      "Idcat": 4,
+      "DESIGNATION": "Drill",
+      "MARQUE": "Makita",
+      "QUANTITE": 15
+    },
+    {
+      "Idcat": 5,
+      "DESIGNATION": "Lawn Mower",
+      "MARQUE": "Honda",
+      "QUANTITE": 7
+    },
+    {
+      "Idcat": 6,
+      "DESIGNATION": "Sander",
+      "MARQUE": "DeWalt",
+      "QUANTITE": 12
+    }
+  ],
+  "Equipements": [
+    {
+      "Codequip": 101,
+      "Idcat": 1,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 102,
+      "Idcat": 2,
+      "ETAT": "out_of_service"
+    },
+    {
+      "Codequip": 103,
+      "Idcat": 3,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 104,
+      "Idcat": 4,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 105,
+      "Idcat": 5,
+      "ETAT": "out_of_service"
+    },
+    {
+      "Codequip": 106,
+      "Idcat": 6,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 107,
+      "Idcat": 1,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 108,
+      "Idcat": 2,
+      "ETAT": "available"
+    },
+    {
+      "Codequip": 109,
+      "Idcat": 3,
+      "ETAT": "out_of_service"
+    },
+    {
+      "Codequip": 110,
+      "Idcat": 4,
+      "ETAT": "available"
+    },
+    {
+      "Idcat": 3,
+      "ETAT": "out_of_service",
+      "Codequip": 111
+    }
+  ],
+  "Clients": [
+    {
+      "Idloc": 1,
+      "nom": "John Doe",
+      "adresse": "123 Main St",
+      "profession": "Builder",
+      "telephone": "555-1234",
+      "solde": 0
+    },
+    {
+      "Idloc": 2,
+      "nom": "Jane Smith",
+      "adresse": "456 Oak St",
+      "profession": "Plumber",
+      "telephone": "555-5678",
+      "solde": 100
+    },
+    {
+      "Idloc": 3,
+      "nom": "Alice Johnson",
+      "adresse": "789 Pine St",
+      "profession": "Electrician",
+      "telephone": "555-9012",
+      "solde": 50
+    },
+    {
+      "Idloc": 4,
+      "nom": "Bob Brown",
+      "adresse": "101 Maple St",
+      "profession": "Carpenter",
+      "telephone": "555-3456",
+      "solde": 200
+    },
+    {
+      "Idloc": 5,
+      "nom": "Charlie Davis",
+      "adresse": "202 Elm St",
+      "profession": "Painter",
+      "telephone": "555-7890",
+      "solde": 75
+    },
+    {
+      "Idloc": 6,
+      "nom": "Diana Evans",
+      "adresse": "303 Cedar St",
+      "profession": "Roofer",
+      "telephone": "555-2345",
+      "solde": 30
+    },
+    {
+      "nom": "Emily White",
+      "adresse": "404 Birch St",
+      "profession": "Mechanic",
+      "telephone": "555-6789",
+      "solde": 120,
+      "Idloc": 7
+    }
+  ],
+  "Locations": [
+    {
+      "codequip": 101,
+      "idloc": 1,
+      "datesortie": "2024-05-01",
+      "dateremise": "2024-05-05",
+      "montant": 50
+    },
+    {
+      "codequip": 103,
+      "idloc": 2,
+      "datesortie": "2024-05-02",
+      "dateremise": "2024-05-07",
+      "montant": 70
+    },
+    {
+      "codequip": 104,
+      "idloc": 3,
+      "datesortie": "2024-05-10",
+      "dateremise": "2024-05-15",
+      "montant": 100
+    },
+    {
+      "codequip": 106,
+      "idloc": 4,
+      "datesortie": "2024-05-12",
+      "dateremise": "2024-05-17",
+      "montant": 90
+    },
+    {
+      "codequip": 108,
+      "idloc": 5,
+      "datesortie": "2024-05-14",
+      "dateremise": "2024-05-19",
+      "montant": 60
+    },
+    {
+      "codequip": 110,
+      "idloc": 6,
+      "datesortie": "2024-05-16",
+      "dateremise": "2024-05-21",
+      "montant": 110
+    },
+    {
+      "codequip": 107,
+      "idloc": 1,
+      "datesortie": "2024-05-22",
+      "dateremise": "2024-05-27",
+      "montant": 55
+    },
+    {
+      "codequip": 105,
+      "idloc": 2,
+      "datesortie": "2024-05-23",
+      "dateremise": "2024-05-28",
+      "montant": 75
+    },
+    {
+      "codequip": 109,
+      "idloc": 3,
+      "datesortie": "2024-05-24",
+      "dateremise": "2024-05-29",
+      "montant": 65
+    },
+    {
+      "codequip": 102,
+      "idloc": 4,
+      "datesortie": "2024-05-25",
+      "dateremise": "2024-05-30",
+      "montant": 85
+    }
+  ]
+}
